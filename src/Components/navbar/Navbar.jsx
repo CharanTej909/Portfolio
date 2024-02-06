@@ -1,11 +1,13 @@
-import React from 'react';
-import "./sidebar.css";
-import Logo from "../../assets/logo.svg";
+import React from 'react'
+import "./navbar.css";
 
-const Sidebar = () => {
+const Navbar = () => {
   return (
-    <aside className='aside'>
-      
+    <navbar className='navbar'>
+      <a href="#home" className='nav__logo'>
+        <img src="" alt="" />
+      </a>
+
       <nav className='nav'>
         <div className="nav__menu">
           <ul className="nav__list">
@@ -47,9 +49,9 @@ const Sidebar = () => {
           </ul>
         </div>
       </nav>
-      
-    </aside>
+
+    </navbar>
   )
 }
 
-export default Sidebar
+export default Navbar

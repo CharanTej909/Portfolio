@@ -7,6 +7,7 @@ import Portfolio from './Components/portfolio/Portfolio';
 import Services from './Components/services/Services';
 import Resume from './Components/resume/Resume';
 import Contact from './Components/contact/Contact';
+import Navbar from './Components/navbar/Navbar';
 
 function App() {
   return (

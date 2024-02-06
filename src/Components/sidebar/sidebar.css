@@ -1,16 +1,18 @@
 .aside {
     position: fixed;
-    left: 0;
-    top: 0;
-    background: var(--body-color);
-    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    left: 20px;
+    top: 30%;
+    background: hsl(0deg 0% 100%);
+    /* border-right: 1px solid rgba(0, 0, 0, 0.05); */
     padding: 2.5rem;
     width: 110px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     z-index: 10;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav__list {
